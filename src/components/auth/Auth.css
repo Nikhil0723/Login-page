@@ -1,0 +1,98 @@
+.auth-container{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    display: flex;
+}
+.auth-container::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.auth-left{
+    width: 57.5vw;
+     height: 100%;
+    background-color: #5533FFCC;
+    padding: 5% 15%;
+}
+.left-container{
+    
+ display: flex;
+ flex-direction: column;
+ gap: 110px;
+ width: 150%;
+}
+.logo h1{
+    font-size: 6rem;
+}
+.auth-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-light{
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 0%;
+    margin-bottom: 30px;
+}
+.head-bold{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.auth-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btn-container{
+    display: flex;
+    gap: 10px;
+}
+.btn-container button:nth-child(1){
+background-color: #1877F2;
+}
+.btn-container button:nth-child(2){
+background-color:  #DB4437;
+}
+.btn-container button:nth-child(3){
+background-color: #0072b1;
+}
+.auth-buttons span{
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 15px
+}
+.auth-buttons p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.btn-container button{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+.auth-right{
+    background-color: white;
+    width: 42.5vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
