@@ -6,7 +6,7 @@ const Login = () => {
     <div className='auth-login'>
       <div className="login-head">
         <h1>Login</h1>
-        <p>Don't have an account yet? <a href="">Create it here</a></p>
+        <p>Don't have an account yet? <a href="./SignUp.js">Create it here</a></p>
       </div>
       <div className="login-form">
         <div className='input-container'>
@@ -19,7 +19,7 @@ const Login = () => {
         </div>
       </div>
       <div className="login-footer">
-      <a href="">Forgot your password?</a>
+      <a href="#">Forgot your password?</a>
       <button>Login &rarr;</button>
       </div>
     </div>

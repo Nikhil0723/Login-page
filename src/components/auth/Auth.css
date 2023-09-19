@@ -24,7 +24,7 @@
  width: 150%;
 }
 .logo h1{
-    font-size: 6rem;
+    font-size: 6.3rem;
 }
 .auth-head{
     display: flex;
@@ -96,3 +96,70 @@ background-color: #0072b1;
     justify-content: center;
     padding: 5%;
 }
+
+
+@media only screen and (max-width: 1050px) {
+    .auth-left{
+        padding: 5% 13%;
+        justify-content: center;
+    }
+  }
+@media only screen and (max-width: 1000px) {
+    .auth-left{
+        width: 50vw;
+        padding: 5% ;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .left-container{
+        width: auto;
+    }
+    .head-light{
+        font-size: 3.5rem;
+    }
+    .auth-right{
+        width: 50vw;
+    }
+  }
+
+  @media only screen and (max-width: 778px) {
+    .logo{
+        line-height: 6.3rem;
+    }
+    .auth-container{
+        flex-direction: column;
+    }
+    .auth-left{
+        width: 100vw;
+        padding:0 10px;
+        padding-bottom: 15px;
+    }
+    .auth-head{
+       gap: 15px;
+    }
+    .left-container{
+        gap: 10px;
+        padding:0 5px;
+    }
+    .title{
+        margin-bottom: 10px;
+    }
+    .head-light{
+        font-size: 3.5rem;
+        line-height: 4.3rem;
+        padding-right: 20px;
+        margin: 0;
+    }
+    .head-bold{
+        font-size: 3rem;
+        line-height: 3rem ;
+    }
+    .auth-right{
+        width: 100vw;
+    }
+    .auth-buttons{
+      gap: 5px;
+    }
+  }
+  

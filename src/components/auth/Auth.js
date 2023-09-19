@@ -2,6 +2,7 @@ import React from 'react'
 import './Auth.css'
 import { BiLogoFacebookCircle , BiLogoGoogle , BiLogoLinkedin } from 'react-icons/bi';
 import Login from '../login/Login'
+import SignUp from '../signup/SignUp';
 
 const Auth = () => {
   return (
@@ -30,7 +31,7 @@ const Auth = () => {
       </div>
       </div>
       <div className='auth-right'>
-       <Login/>
+       <SignUp/>
       </div>
 
     </div>
