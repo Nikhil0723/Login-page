@@ -4,10 +4,7 @@ import './Login.css'
 const Login = () => {
   return (
     <div className='auth-login'>
-      <div className="login-head">
-        <h1>Login</h1>
-        <p>Don't have an account yet? <a href="./SignUp.js">Create it here</a></p>
-      </div>
+     
       <div className="login-form">
         <div className='input-container'>
           <label htmlFor="">USERNAME</label>
@@ -19,7 +16,7 @@ const Login = () => {
         </div>
       </div>
       <div className="login-footer">
-      <a href="#">Forgot your password?</a>
+      <p href="#">Forgot your password?</p>
       <button>Login &rarr;</button>
       </div>
     </div>

@@ -3,10 +3,6 @@ import './SignUp.css'
 const SignUp = () => {
   return (
     <div className='auth-register'>
-    <div className="register-head">
-      <h1>Resgister</h1>
-      <p>Already have an account?  <a href="./Login.js">Login</a></p>
-    </div>
     <div className="register-form">
       <div className='input-container'>
         <label htmlFor="">USERNAME</label>

@@ -83,6 +83,11 @@ background-color: #0072b1;
     border: none;
 }
 
+.form-toggle{
+cursor: pointer;
+color: #1877F2;
+font-weight: 600;
+}
 
 
 
@@ -93,8 +98,11 @@ background-color: #0072b1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     padding: 5%;
+    align-items: flex-start;
+    padding-top: 10%;
+    gap: 50px;
 }
 
 
