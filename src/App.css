@@ -2,5 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.header{
+    align-items: center;
+    text-align: center;
+}
+.header h1{
+    font-size: 50px;
+}
+.counter{
+    text-align: center;
+    margin: 50px;
+}
+.counter h1{
+    font-size: 100px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-container button{
+    font-size: 20px ;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
