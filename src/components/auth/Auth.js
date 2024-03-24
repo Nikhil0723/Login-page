@@ -15,12 +15,10 @@ const Auth = () => {
     <div className='auth-container'>
       <div className='auth-left'>
         <div className='left-container'>
-          <div className='logo'>
-            <h1>LOGO</h1>
-          </div>
+          
           <div className='auth-head'>
             <h1 className='head-light'>Welcome to</h1>
-            <h1 className='head-bold'>Proxima</h1>
+            <h1 className='head-bold'>Nutrilens</h1>
             <p className='title'>
               The only tool you'll ever need
             </p>
@@ -38,7 +36,7 @@ const Auth = () => {
       </div>
       <div className='auth-right'>
       <div className="login-head">
-        <h1>Login</h1>
+        <h1>{showLogin ? 'Login' : 'Signup'}</h1>
         <p>{showLogin ? 'Don\'t have an account? ' : 'Already have an account? '} <span className='form-toggle' onClick={toggleForm}>{showLogin ? 'Sign up here.' : ' Log in here.'}</span></p>
       </div>
         {showLogin ? <Login  toggleForm={toggleForm} /> : <SignUp />}

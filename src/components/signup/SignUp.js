@@ -5,8 +5,8 @@ const SignUp = () => {
     <div className='auth-register'>
     <div className="register-form">
       <div className='input-container'>
-        <label htmlFor="">USERNAME</label>
-        <input type="text" placeholder='Username' />
+        <label htmlFor="">Name</label>
+        <input type="text" placeholder='Name' />
       </div>
       <div className='row'>
       <div className='input-container'>
